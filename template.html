@@ -23,13 +23,14 @@
    }
    .report-header .logo{
     position: absolute;
-    top: 40px;
-    left: 15px;
-    width: 150px;
+    top: 20px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
    }
    .report-footer{
-    background: rgb(255, 0, 0);
-    color: rgb(7, 159, 2);
+    background: #4b029f;
+    color: #ffe902;
     padding: 15px;
     box-sizing: border-box;
     display: block;
@@ -62,7 +63,7 @@
  </head>
 <body>
 <div class="report-header">
- <img src="logo.png" class="logo">
+ <img src={{logo}} class="logo">
  <h3>{{title}}</h3>
  <p>{{date}}</p>
 </div>
@@ -79,7 +80,7 @@
  </div>
 </div>
 <div class="report-photo">
- <img src="student.png">
+<!-- <img src="student.png">-->
 </div>
 <div class="report-footer">
  A generic Company - All Rights reserved.
