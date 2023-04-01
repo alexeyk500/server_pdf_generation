@@ -2,10 +2,8 @@ const express = require('express');
 const data = require('./templateData');
 const createPDF = require('./pdfGenerator');
 
-
-const app = express();
-
 const PORT = 3000;
+const app = express();
 
 app.get('/ping', (req, res) => {
   res.send('pong');
